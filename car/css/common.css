@@ -1,0 +1,159 @@
+html,body{
+	width: 100%;
+	height:100%;
+}
+/*设置wrap样式*/
+#wrap{
+	width:72%;
+	/*height: 1594px;*/
+	margin: 0 auto;
+	border: 1px solid black;
+	position: relative;
+}
+
+/*设置头部样式*/
+.header{
+	position:fixed;
+	z-index:1000;
+	width:72%;
+	height:68px;
+	border-bottom: 1px solid #c0c0c0;
+	display: flex;
+	display: -webkit-flex;
+	justify-content:space-around;
+	-webkit-justify-content:space-around;
+	align-items:center;
+	-webkit-align-items:center;
+	font-size: 14px;
+	background:white;	
+}
+.header .nav{
+	flex-basis:46%;
+	-webkit-flex-basis:46%;
+}
+.header .nav ul{
+	width:100%;
+	display: flex;
+	display: -webkit-flex;
+	justify-content:space-between;
+	-webkit-justify-content:space-between;
+	background: white;
+}
+.header .nav ul{
+	position: relative;
+}
+.header .nav ul .run{
+	width:80px;
+	height:3px;
+	background:red;
+	position: absolute;
+	left:0;
+	top:16px;
+	display: none;
+}
+.header .nav ul h2{
+	font-size:14px;
+	font-family:arial;
+	font-weight:normal;
+	color: black;
+	width:80px;
+	text-align:center;
+}
+
+/*设置主体内容*/
+.content{
+	width:100%;
+	background: #f5f5f5;
+	margin-top:69px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: center;
+}
+.content .page_caption{
+	margin:110px 0px;
+}
+.content .page_caption img{
+	margin-top: 14px;
+}
+.content .page_caption span{
+	font-size: 26px;
+	font-family: arial;
+	color:#616161;
+	margin:0 26px;
+}
+
+/*设置底部*/
+.footer{
+	width:100%;
+	/*width:1366px;*/
+	height:406px;
+	border-bottom: 2px solid white;
+	bottom: 0px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+	justify-content:space-between;
+	-webkit-justify-content:space-between;
+	align-items:center;
+	-webkit-align-items:center;
+}
+.footer .contact_us{
+	width: 50%;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	/*width: 688px;*/
+}
+
+.footer .contact_us{
+	margin-top: 96px;
+	
+}
+.footer .contact_us img{
+	margin-top: 12px;
+	height:2px;
+}
+
+.footer .contact_us span{
+	font-size: 24px;
+	font-family:arial;
+	margin: 0 4%;
+	color: #616161;
+}
+
+.footer .contact p{
+	width: 280px;
+	margin:9px auto;
+	color: #a1a1a1;
+	text-align: center;
+
+}
+.footer .copyright{
+	width:100%;
+	height:65px;
+	border-top:3px solid #cfdb00;
+	background: #b5b5b5;
+	text-align: center;
+	line-height: 65px;
+	font-size: 20px;
+	color:#fefefe;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
