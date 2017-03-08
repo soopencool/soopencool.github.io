@@ -1,0 +1,25 @@
+.content .contact_logo{
+	margin-top:160px;
+}
+.content .contact_all{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+	-webkit-align-items:center;
+	background:url(../img/Cantact/contact_bg.jpg) no-repeat;
+	height:540px;
+}
+.content .contact_all p{
+	font-size: 18px;
+	font-family: arial;
+	color: #595757;
+	margin-bottom: 18px;
+}
+#wrap .footer{
+	height: 360px;
+}
+#wrap .footer .contact{
+	margin-top:100px;
+}

@@ -1,0 +1,105 @@
+/*设置主体内容*/
+/*width:1904px;
+主体1366px*/
+
+/*设置主体内容第二部分*/
+.content .service{
+	/*width:1026px;*/
+	width:82%;
+	margin: auto;
+	
+}
+.content .serviceAll{
+	width:100%;
+	border-top:1px solid #bfbfbf;
+	position:relative;
+}
+.content .serviceAll:after{
+	content: "";
+	display:block;
+	clear: both;
+	
+}
+
+.content .service_three{
+	border-bottom:1px solid #bfbfbf;
+}
+/*彩色图*/
+.content .service .color_img01{
+	float: left;
+	width:65%;
+	border-right:21px solid #cfdb00;
+	
+}
+.content .service .color_img02{
+	width:65%;
+	position: absolute;
+	right: 1px;
+	border-left:21px solid #cfdb00;
+}
+
+/*灰色图*/
+.content .service .gray_img01{
+	width:65%;
+	position:absolute;
+	left:0;
+	z-index: 10;
+	border-right:21px solid #e1e1e1;
+}
+.content .service .gray_img02{
+	width:65%;
+	position:absolute;
+	right: 1px;
+	z-index: 2;
+	border-left:21px solid #e1e1e1;
+}
+
+.content .serviceAll div{
+	float: left;
+	// width:29.4%;
+	width: 28%;
+	padding:43px 1.7% 18px;
+	opacity: 0.3;
+}
+.content .service_one div h3,.content .service_two div h3,.content .service_three div h3{
+	font-size: 1.4em;
+	font-family: arial;
+	text-transform: uppercase;
+	color: #3c3c3c;
+	margin-bottom:27px;
+}
+.content .service_one div p,.content .service_two div p,.content .service_three div p{
+	font-size: 0.9em;
+	font-family:"微软雅黑";
+	line-height:22px;
+	color: #595757;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
